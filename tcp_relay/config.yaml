@@ -1,7 +1,7 @@
 name: "TCP Relay"
-version: "1.0.0"
+version: "1.1.0"
 slug: "tcp_relay"
-description: "Minimal host-network TCP relay with a configurable, HA-controllable backend target"
+description: "Minimal host-network HTTP-aware logging relay with a configurable, HA-controllable backend target"
 url: "https://github.com/garysleet/ha-tcp-relay-addon"
 arch:
   - aarch64

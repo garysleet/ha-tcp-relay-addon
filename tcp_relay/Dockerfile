@@ -1,8 +1,7 @@
 FROM alpine:3.19
 
-RUN apk add --no-cache socat jq
+RUN apk add --no-cache python3
 
-COPY run.sh /
-RUN chmod a+x /run.sh
+COPY proxy.py /
 
-CMD [ "/run.sh" ]
+CMD [ "python3", "/proxy.py" ]
